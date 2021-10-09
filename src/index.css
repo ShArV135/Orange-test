@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.book-item {
+  background: #ccc;
+  padding: 20px;
+  height: 100%;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.book-item .item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.book-item .title-container {
+  min-height: 70px;
+}
+
+.book-item .item-container img {
+  max-height: 100%;
+}
